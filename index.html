@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CS ZCOER</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="logo">
+            <a href="https://zcoer.in/" target="_blank"> <img src="zcoer-gif1.gif" alt="University Logo"></a>
+            <a><b>CS ZCOER</b></a>
+        </div>
+        <ul class="nav-links" id="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="staff.html">Staff Section</a></li>
+            <li><a href="student.html">Student Section</a></li>
+            <li><a href="clubs.html">Clubs</a></li>
+        </ul>
+        <div class="menu-icon" id="menu-icon">
+            <span>&#9776;</span>
+        </div>
+    </nav>
+
+    
+
+    <!-- Header Section with Slideshow -->
+    <header class="header" id="home">
+        <div class="header-content">
+            <h1>DEPARTMENT OF COMPUTER ENGINEERING ZCOER</h1>
+        </div>
+    </header>
+    <section class="flash-news">
+        <marquee behavior="scroll" direction="left" scrollamount="5">
+          <p>Welcome to Department of Computer Engineering, ZCOER.</p>
+        </marquee>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="about-container">
+            <img src="lab/dbmslab.jpg" alt="University Building" class="about-image">
+            <div class="about-text">
+                <h2>About Our Department</h2>
+                <p>The Department of Computer Engineering was set up under Zeal College of Engineering and Research in 2007. Our sole objective is and will always be to provide the learner with a repertoire of knowledge that will serve them for a lifetime. We have 13 well equipped labs with the latest software installed. The high speed internet facility (50 Mbps lease line) coupled with regular seminars and workshops held for the students and faculty ensures that the knowledge-gathering process is a holistic one. The IBM Software Lab for Emerging Technologies, set up in collaboration with IBM, is another initiative of the Department and we are making sincere efforts to ensure that every single student gets certified by this Lab. Additionally, the Zeal Firefox Club involves the students wherein they can engage in the development of Firefox products and applications. They are active volunteers in Nirmaan and Talentron, which are the technical and cultural festivals held at Zeal annually and which witness the active participation of the students.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Faculty Section -->
+    <section class="faculty">
+        <h2>Our Dedicated Faculty</h2>
+        <div class="faculty-container">
+            <div class="faculty-item" onclick="openModal('aparnamoteModal')">
+                <img src="faculty/hod.jpg" alt="Prof. Aparna V. Mote">
+                <h3>Prof. Aparna V. Mote</h3>
+                <h5>Head of Department</h5>
+            </div>
+
+            <div class="faculty-item" onclick="openModal('maheshnavleModal')">
+                <img src="faculty/mn.jpg" alt="Dr. Mahesh Navale">
+                <h3>Dr. Mahesh Navale</h3>
+                <h5>Associate Professor</h5>
+            </div>
+
+            <div class="faculty-item" onclick="openModal('nrModal')">
+                <img src="faculty/nr.jpg" alt="Prof. Nitisha Rajgure">
+                <h3>Prof. Nitisha Rajgure</h3>
+                <h5>Associate Professor</h5>
+            </div>
+
+            <div class="faculty-item" onclick="openModal('rpModal')">
+                <img src="faculty/rakhip.jpg" alt="Prof. Rakhi S. Punwatkar">
+                <h3>Prof. Rakhi S. Punwatkar</h3>
+                <h5>Associate Professor</h5>
+            </div>
+
+            <div class="faculty-item" onclick="openModal('roshaniModal')">
+                <img src="faculty/roshanip.jpg" alt="Prof. Roshani A. Parate">
+                <h3>Prof. Roshani A. Parate</h3>
+                <h5>Assistant Professor</h5>
+            </div>
+
+            <div class="faculty-item" onclick="openModal('nikitajModal')">
+                <img src="faculty/joshi.jpg" alt="Prof. Nikita P. Joshi">
+                <h3>Prof. Nikita P. Joshi</h3>
+                <h5>Assistant Professor</h5>
+            </div>
+
+            <div class="faculty-item" onclick="openModal('amoltakeModal')">
+                <img src="faculty/at1.jpg" alt="Prof. Amol T. Take">
+                <h3>Prof. Amol T. Take</h3>
+                <h5>Assistant Professor</h5>
+            </div>
+        </div>
+    </section>
+
+    <div id="aparnamoteModal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal('aparnamoteModal')">&times;</span>
+            <img src="faculty/hod.jpg" alt="Prof. Aparna V. Mote" class="modal-image">
+            <h2>Prof. Aparna V. Mote</h2>
+            <p>Head of Department of Computer Engineering.</p>
+            <p>M.E. (Computer Engineering)</p>
+            <p>Teaching - 13.9 Years</p>
+            <p>Data Mining and Information retrival, Machine Learning</p>
+            <p>Email - aparna.mote@zealeducation.com</p>
+        </div>
+    </div>
+    
+    <div id="maheshnavleModal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal('maheshnavleModal')">&times;</span>
+            <img src="faculty/mn.jpg" alt="Dr. Mahesh Navale" class="modal-image">
+            <h2>Dr. Mahesh Navale</h2>
+            <p>Associate Professor</p>
+            <p>Ph.D</p>
+        </div>
+    </div>
+    
+    <div id="nrModal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal('nrModal')">&times;</span>
+            <img src="faculty/nr.jpg" alt="Prof. Nitisha Rajgure" class="modal-image">
+            <h2>Prof. Nitisha Rajgure</h2>
+            <p>Associate Professor</p>
+            <p>M.E. (Computer Science and Engineering)</p>
+        </div>
+    </div>
+    
+    <div id="rpModal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal('rpModal')">&times;</span>
+            <img src="faculty/rakhip.jpg" alt="Prof. Rakhi S. Punwatkar" class="modal-image">
+            <h2>Prof. Rakhi S. Punwatkar</h2>
+            <p>Associate Professor</p>
+            <p>M.E.</p>
+        </div>
+    </div>
+    
+    <div id="roshaniModal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal('roshaniModal')">&times;</span>
+            <img src="vistingprof.webp" alt="Prof. Roshani A. Parate" class="modal-image">
+            <h2>Prof. Roshani A. Parate</h2>
+            <p>Assistant Professor</p>
+            <p>Ph.D. Pursuing</p>
+        </div>
+    </div>
+    
+    <div id="nikitajModal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal('nikitajModal')">&times;</span>
+            <img src="faculty/joshi.jpg" alt="Prof. Nikita P. Joshi" class="modal-image">
+            <h2>Prof. Nikita P. Joshi</h2>
+            <p>Assistant Professor</p>
+            <p>M.E.</p>
+        </div>
+    </div>
+    <div id="amoltakeModal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal('amoltakeModal')">&times;</span>
+            <img src="faculty/at1.jpg" alt="Prof. Amol T. Take" class="modal-image">
+            <h2>Prof. Amol T. Take</h2>
+            <p>Assistant Professor</p>
+            <p>M.E.</p>
+        </div>
+    </div>
+<br>
+<div class="card-container">
+    <section id="card1" class="card">
+      <img src="vision.jpg" alt="Card 1 Image" class="card-image" />
+      <div class="card__content">
+        <p class="card__title">Vision</p>
+        <p class="card__description">
+            To emerge as a department of repute in Computer Engineering through innovative teaching, research, social responsibility, and entrepreneurial skills, developing responsible IT professionals.
+        </p>
+      </div>
+    </section>
+  
+    <section id="card2" class="card">
+      <img src="mission.jpg" alt="Card 2 Image" class="card-image" />
+      <div class="card__content">
+        <p class="card__title">Mission</p>
+        <p class="card__description">
+            M1: To provide in depth technical education and hands-on experiences in Computer Engineering using modern tools and technologies.<br><br>
+            M2: To endeavor innovative research culture to fulfill the needs of industry and society.<br><br>
+            M3: To instil in students a deep sense of social responsibility.<br><br>
+            M4: To strengthen collaboration between industry and academia, fostering the development of entrepreneurial skills among the students.<br><br>
+        </p> 
+      </div>
+    </section>
+</div>
+<br>
+  
+
+    <!-- Overview Section -->
+    <section class="overview">
+        <h2>Glimpses Of Departement</h2>
+        <div class="overview-container">
+            <div class="overview-item">
+                <img src="glimpse/ivc1.jpg" alt="guest3">
+                <div class="text-overlay">
+                    <p>Industrial Visits A. Y. 2023-24</p>
+                </div>
+            </div>
+            <div class="overview-item">
+                <img src="glimpse/befarewell22.png" alt="guest1">
+                <div class="text-overlay">
+                    <p>BE FAREWELL 2022</p>
+                </div>
+            </div>
+            <div class="overview-item">
+                <img src="glimpse/foraign.jpg" alt="guest2">
+                <div class="text-overlay">
+                    <p>Foreign Studies and Civil Services Awareness Program</p>
+                </div>
+            </div>
+            
+        </div>
+    </section>
+
+    <!-- Achievements Section -->
+<section class="achievements">
+    <h2>Achievements</h2>
+    <div class="achievement-cards">
+        <div class="achievement-card">
+            <img src="achieve/robo.jpg" alt="Conference Achievement">
+            <h3>Remarkable Achievement in the International RoboAnalyzer competition (ROC 2024) organized at IIT Delhi</h3>
+            <p> 9th November 2024
+                <br>
+                Mr. Manav Jori(BE R&A) & Mr. Nehal Rane(BE COMP) Secured 2nd Position and Won Cash Prize of Rs. 75000/- in the International RoboAnalyzer competition (ROC 2024)</p>
+        </div>
+    </div>
+</section>
+
+
+    <section class="clubs-section">
+        <h2>Our Clubs</h2>
+        <div class="clubs-container">
+            <a href="clubs.html" class="club-item">
+                <img src="club/aces.png" alt="ACES">
+                <h3>Association of Computer Engineering Students (ACES)</h3>
+            </a>
+            <a href="clubs.html" class="club-item">
+                <img src="club/aiml.webp" alt="Neuro Nova (AIML Club)">
+                <h3>Neuro Nova<br>(AIML Club)</h3>
+            </a>
+            <a href="clubs.html" class="club-item">
+                <img src="club/cyber.jpg" alt="Secure Sphere (Cyber & Web Security Club)">
+                <h3>Secure Sphere<br>(Cyber & Web Security Club)</h3>
+            </a>
+            <a href="clubs.html" class="club-item">
+                <img src="club/android.png" alt="App Loom (Mobile & Web App Club)">
+                <h3>App Loom<br>(Mobile & Web App Club)</h3>
+            </a>
+            <a href="clubs.html" class="club-item">
+                <img src="club/cloud.webp" alt="AstraCloud (Blockchain & Cloud Club)">
+                <h3>AstraCloud<br>(Blockchain & Cloud Club)</h3>
+            </a>
+        </div>
+    </section>
+
+    <!-- Upcoming Events Section -->
+    <section class="events" id="events">
+        <h2>Upcoming Events</h2>
+        <div class="events-container">
+            <div class="event-item" style="background-image: url('event1bg.webp');">
+                <h3>UDAAN 2K25</h3>
+                <p>Date: Feb 3-8, 2025</p>
+                <p>Location: Zeal Institute, Narhe</p>
+            </div>
+            <div class="event-item" style="background-image: url('event2bg.webp');">
+                <h3>TALENTRON 2K25</h3>
+                <p>Date: Feb 3-8, 2025</p>
+                <p>Location: Zeal Institute, Narhe</p>
+            </div>
+        </div>
+    </section>
+
+    
+
+    <!-- Contact Information Section -->
+    <footer class="footer">
+        <div class="footer-container">
+            <h3>Contact Information</h3>
+            <p>Email: zcoer@zealeducation.com</p>
+            <p>Tel: +91 2067206000</p>
+            <p>Address: 3rd Floor, D-BLDG, Survey No.39, Zeal College of Engineering and Research, Narhe-Dhayari Road, Narhe, Pune-411041</p>
+            <p>&copy; Designed & Developed by <a class="developername1" href="https://www.linkedin.com/in/gauravrasane14/" target="_blank">Gaurav Rasane</a> of Computer Engg. Dept. ZCOER</p>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+    <script>
+        const menuIcon = document.getElementById('menu-icon');
+        const navLinks = document.querySelector('.nav-links');
+
+        menuIcon.addEventListener('click', () => {
+            navLinks.classList.toggle('show');
+        });
+    </script>
+</body>
+</html>
+
+
+
+
